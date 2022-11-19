@@ -1,0 +1,17 @@
+{
+    "name": "user/ipt10-generating-pdf-files-tcpdf",
+    "autoload": {
+        "psr-4": {
+            "User\\Ipt10GeneratingPdfFilesTcpdf\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "clvnknt",
+            "email": "p.calvinkent@gmail.com"
+        }
+    ],
+    "require": {
+        "tecnickcom/tcpdf": "^6.5"
+    }
+}
