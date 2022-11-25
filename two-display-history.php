@@ -61,8 +61,8 @@ $pdf = new MYPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8',
 
 // set document information
 $pdf->SetCreator(PDF_CREATOR);
-$pdf->SetAuthor('Nicola Asuni');
-$pdf->SetTitle('Display History');
+$pdf->SetAuthor('Calvin Kent Pamandanan');
+$pdf->SetTitle('TCPDF Activity 2 - Display AUF Brief History');
 $pdf->SetSubject('TCPDF Tutorial');
 $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 
@@ -116,7 +116,7 @@ $pdf->Write(0, $txt, '', 0, 'C', true, 0, false, false, 0);
 // ---------------------------------------------------------
 
 //Close and output PDF document
-$pdf->Output('example_003.pdf', 'I');
+$pdf->Output('two-display-history', 'I');
 
 //============================================================+
 // END OF FILE

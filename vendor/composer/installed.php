@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'user/ipt10-generating-pdf-files-tcpdf',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'ad6b6fd6d99962a1be7f7757cb8292737d7e763f',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -20,9 +20,9 @@
             'dev_requirement' => false,
         ),
         'user/ipt10-generating-pdf-files-tcpdf' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'ad6b6fd6d99962a1be7f7757cb8292737d7e763f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

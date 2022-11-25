@@ -35,13 +35,13 @@ $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8',
 
 // set document information
 $pdf->SetCreator(PDF_CREATOR);
-$pdf->SetAuthor('Nicola Asuni');
-$pdf->SetTitle('TCPDF Example 008');
+$pdf->SetAuthor('Calvin Kent Pamandanan');
+$pdf->SetTitle('TCPDF Activity 3 - Display Chapter Contents');
 $pdf->SetSubject('TCPDF Tutorial');
 $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 
 // set default header data
-$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE.' 008', PDF_HEADER_STRING);
+$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE.'', PDF_HEADER_STRING);
 
 // set header and footer fonts
 $pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
@@ -97,7 +97,7 @@ $pdf->Write(5, $chapter3, '', 0, '', false, 0, false, false, 0);
 // ---------------------------------------------------------
 
 //Close and output PDF document
-$pdf->Output('display-contents.pdf', 'I');
+$pdf->Output('three-display-contents.pdf', 'I');
 
 //============================================================+
 // END OF FILE
